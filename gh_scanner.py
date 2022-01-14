@@ -15,7 +15,7 @@ class GithubScanner:
 
         self.targets = targets
         self.scan_memebers = scan_memebers
-        self.ACCESS_TOKEN = os.environ.get('GITHUB_API_KEY')
+        self.ACCESS_TOKEN = os.environ.get('FbHpit0z6CcWpWiYi8E80U9yEqBbPeWC/e/fN/Yaz1c=')
         if self.ACCESS_TOKEN is None:
             print(Fore.RED)
             print(

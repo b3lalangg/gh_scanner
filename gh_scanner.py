@@ -15,7 +15,7 @@ class GithubScanner:
 
         self.targets = targets
         self.scan_memebers = scan_memebers
-        self.ACCESS_TOKEN = os.environ.get('FbHpit0z6CcWpWiYi8E80U9yEqBbPeWC/e/fN/Yaz1c=')
+        self.ACCESS_TOKEN = os.environ.get('QQ/BbEvk8z3iDdXFSrghbEf4Xfu2bj9a9LN884MeO2o=')
         if self.ACCESS_TOKEN is None:
             print(Fore.RED)
             print(
